@@ -12,3 +12,9 @@ My dotfiles use [NvChad](https://nvchad.com).
 **For Linux/MacOS users:**  
 ```bash
 git clone https://github.com/TechAlvi/My-dotfiles-for-nvim ~/.config/nvim && nvim
+
+For Windows users (Use CMD/Command Prompt):
+
+```bash
+git clone https://github.com/TechAlvi/My-dotfiles-for-nvim %USERPROFILE%\AppData\Local\nvim && nvim
+
