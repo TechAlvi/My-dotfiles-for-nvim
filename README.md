@@ -2,8 +2,8 @@
 
 **This is my neovim dotfile**
 
->[!info]- Where is the source?
->My dotfiles use [NvChad](https://nvchad.com/docs/quickstart/install).
+> [!NOTE]
+> My dotfiles use [NvChad](https://nvchad.com/docs/quickstart/install).
 
 ---
 
