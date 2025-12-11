@@ -2,7 +2,8 @@
 
 **This is my neovim dotfile**
 
-My dotfiles use [NvChad](https://nvchad.com/docs/quickstart/install).
+>[!info]- Where is the source?
+>My dotfiles use [NvChad](https://nvchad.com/docs/quickstart/install).
 
 ---
 
@@ -11,6 +12,7 @@ My dotfiles use [NvChad](https://nvchad.com/docs/quickstart/install).
 **Step 1:**
 
 **For Linux/MacOS users:**
+
 ```bash
 git clone https://github.com/TechAlvi/My-dotfiles-for-nvim ~/.config/nvim && nvim
 ```
