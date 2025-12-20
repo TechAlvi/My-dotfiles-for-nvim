@@ -1,6 +1,25 @@
 vim.g.base46_cache = vim.fn.stdpath "data" .. "/base46/"
 vim.env.PATH = vim.env.PATH .. ':/usr/bin'
 vim.g.mapleader = " "
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "cpp",
+  callback = function()
+    vim.keymap.set("n", "<leader>r",
+      ":!g++ -std=c++20 -Wall -Wextra % -o %:r && ./%:r<CR>",
+      { buffer = true, silent = true }
+    )
+  end,
+})
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "python",
+  callback = function()
+    vim.keymap.set("n", "<leader>r",
+      ":!python3 %<CR>",
+      { buffer = true, silent = true }
+    )
+  end,
+})
 
 -- bootstrap lazy and all plugins
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"

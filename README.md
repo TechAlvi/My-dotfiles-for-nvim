@@ -2,7 +2,7 @@
 
 **This is my neovim dotfile**
 
-> [!NOTE]
+> [!NOTE]-
 > My dotfiles use [NvChad](https://nvchad.com/docs/quickstart/install).
 
 ---
@@ -21,6 +21,8 @@ git clone https://github.com/TechAlvi/My-dotfiles-for-nvim ~/.config/nvim && nvi
 git clone https://github.com/TechAlvi/My-dotfiles-for-nvim %USERPROFILE%\AppData\Local\nvim && nvim
 ```
 
+---
+
 **Step 2:**
 
 **Inside Neovim, run:**
@@ -29,3 +31,15 @@ git clone https://github.com/TechAlvi/My-dotfiles-for-nvim %USERPROFILE%\AppData
 ```
 
 After Lazy installs all the plugins, you’re good to go.
+
+---
+
+**Also if you press**
+```bash
+ <leader>r
+
+```
+Then your cpp file will run.
+
+**But if you press**
+
