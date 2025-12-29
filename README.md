@@ -2,11 +2,6 @@
 
 **This is my neovim dotfile**
 
-> [!NOTE]-
-> My dotfiles use [NvChad](https://nvchad.com/docs/quickstart/install).
-
----
-
 ## **Installation Steps**
 
 **Step 1:**
@@ -34,12 +29,10 @@ After Lazy installs all the plugins, you’re good to go.
 
 ---
 
-**Also if you press**
-```bash
- <leader>r
+**Also if you press F5**
 
-```
 Then your cpp file will run.
 
-**But if you press**
+---
+**I recommend creating your own configuration, as using someone else’s setup is unlikely to maximize your productivity. A configuration is most effective when it aligns with your personal workflow and preferences. Additionally, this particular setup is primarily tailored for C++ development and may not be well-suited for other languages.**
 
