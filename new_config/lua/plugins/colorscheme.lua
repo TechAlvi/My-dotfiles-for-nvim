@@ -1,4 +1,5 @@
 return {
+	-- One dark pro theme
 	-- {
 	--   "olimorris/onedarkpro.nvim",
 	--   priority = 1000, -- load before everything else
