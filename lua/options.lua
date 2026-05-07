@@ -1,0 +1,12 @@
+vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.mousemoveevent = true
+vim.opt.mouse = 'a'
+vim.opt.termguicolors = true
+vim.o.lines = vim.o.lines
+vim.o.columns = vim.o.columns
+vim.wo.relativenumber = true
